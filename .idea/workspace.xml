@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d26e704-64b9-4369-a1d9-830503dd1672" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z Pliku.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Liczby.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaImion/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlikiTekstowe/Pliki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlikiTekstowe/WordIndexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Słowa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Słownik/EnglishPolishDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Słownik/PltoEN1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Słownik/PolishEnglishDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Adress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sklep/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sklep/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sklep/Product.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q9ItWFzjUtg6Pqsg6YRDCP6ZUG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Nauka programowania z Andrzejem"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="classes" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WordIndexer">
+    <configuration name="PLtoEN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Słownik.PLtoEN" />
+      <module name="Z Pliku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Słownik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pliki" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlikiTekstowe.Pliki" />
+      <module name="Z Pliku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PlikiTekstowe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PltoEN1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Słownik.PltoEN1" />
+      <module name="Z Pliku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Słownik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Słownik.EnglishPolishDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Słownik.EnglishPolishDictionary" />
+      <module name="Z Pliku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Słownik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordIndexer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlikiTekstowe.WordIndexer" />
+      <module name="Z Pliku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PlikiTekstowe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordIndexer" />
+        <item itemvalue="Application.Pliki" />
+        <item itemvalue="Application.PltoEN1" />
+        <item itemvalue="Application.Słownik.EnglishPolishDictionary" />
+        <item itemvalue="Application.PLtoEN" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d26e704-64b9-4369-a1d9-830503dd1672" name="Changes" comment="" />
+      <created>1684759588138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684759588138</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
