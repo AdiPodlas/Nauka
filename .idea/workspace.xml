@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d26e704-64b9-4369-a1d9-830503dd1672" name="Changes" comment="Refaktoryzacja1">
-      <change afterPath="$PROJECT_DIR$/src/Dziedziczenie/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dziedziczenie/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dziedziczenie/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dziedziczenie/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
