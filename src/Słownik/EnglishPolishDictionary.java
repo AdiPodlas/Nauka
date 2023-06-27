@@ -35,12 +35,9 @@ public class EnglishPolishDictionary {
             List<String> englishTranslations = entry.getValue();
 
             for (String englishWord : englishTranslations) {
-                List<String> polishTranslations = englishToPolish.getOrDefault(englishWord, new ArrayList<>());
-                polishTranslations.add(polishWord);
-                englishToPolish.put(englishWord, polishTranslations);
+                addTranslation(englishToPolish, englishWord, polishWord);
             }
         }
-
         return englishToPolish;
     }
 

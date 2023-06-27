@@ -10,8 +10,6 @@ public class WordIndexer {
         wordIndex = new HashMap<>();
     }
 
-
-
     public void indexFiles(String[] filePaths) {
         for (String filePath : filePaths) {
             indexFile(filePath);
@@ -45,7 +43,13 @@ public class WordIndexer {
     }
 
     public static void main(String[] args) {
-        String[] filePaths = {"D:/Nauka programowania z Andrzejem/Pliki tekstowe/Plik 1.txt", "D:/Nauka programowania z Andrzejem/Pliki tekstowe/Plik 2.txt", "D:/Nauka programowania z Andrzejem/Pliki tekstowe/Plik 3.txt", "D:/Nauka programowania z Andrzejem/Pliki tekstowe/Plik 4.txt", "D:/Nauka programowania z Andrzejem/Pliki tekstowe/Plik 5.txt"};
+        String[] filePaths = {
+                "D:/Nauka programowania z Andrzejem/Pliki tekstowe/Plik 1.txt",
+                "D:/Nauka programowania z Andrzejem/Pliki tekstowe/Plik 2.txt",
+                "D:/Nauka programowania z Andrzejem/Pliki tekstowe/Plik 3.txt",
+                "D:/Nauka programowania z Andrzejem/Pliki tekstowe/Plik 4.txt",
+                "D:/Nauka programowania z Andrzejem/Pliki tekstowe/Plik 5.txt"};
+
         WordIndexer indexer = new WordIndexer();
         indexer.indexFiles(filePaths);
 
