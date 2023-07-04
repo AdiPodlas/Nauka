@@ -68,7 +68,7 @@ public class Main {
         }
 
         public double calculateArea() {
-            return Math.PI * radius * radius;
+            return Math.PI * (radius * radius);
         }
 
         public double calculatePerimeter() {
