@@ -26,8 +26,7 @@ public class Discount2 {
     static class FixedDiscount implements Discount {
         public double calculateDiscountedPrice(double totalPrice) {
             double fixedDiscountAmount = 10;
-            double discountedPrice = totalPrice - fixedDiscountAmount;
-            return discountedPrice;
+            return totalPrice - fixedDiscountAmount;
         }
     }
 
@@ -35,8 +34,7 @@ public class Discount2 {
         public double calculateDiscountedPrice(double totalPrice) {
             double discountPercent = 0.05;
             double discountAmount = discountPercent * totalPrice;
-            double discountedPrice = totalPrice - discountAmount;
-            return discountedPrice;
+            return totalPrice - discountAmount;
         }
     }
 
@@ -45,8 +43,7 @@ public class Discount2 {
             double conditionalDiscountPercent = 0.1;
             if (totalPrice > 100) {
                 double discountAmount = conditionalDiscountPercent * totalPrice;
-                double discountedPrice = totalPrice - discountAmount;
-                return discountedPrice;
+                return totalPrice - discountAmount;
             } else {
                 return totalPrice;
             }
