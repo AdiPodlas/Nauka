@@ -1,8 +1,13 @@
 package Rabat;
 
-class PercentDiscount implements Discount {
+public class PercentDiscount implements Discount {
+
+    public PercentDiscount(double discountPercent) {
+        this.discountPercent = discountPercent;
+    }
+
+    double discountPercent;
     public double calculateDiscountedPrice(double totalPrice) {
-        double discountPercent = 0.05;
         double discountAmount = discountPercent * totalPrice;
         return totalPrice - discountAmount;
     }

@@ -1,11 +1,13 @@
 package sklep;
 
+import Rabat.ConditionalDiscount;
+
 public class Main {
         public static void main(String[] args) {
 
             Cart cart = new Cart();
 
-            cart.setDiscount(0.1);
+            cart.setDiscount(new ConditionalDiscount(0.2, 500));
             cart.setTransportCosts(45);
 
             Product product1 = new Product("Margaryna", 9.901);
@@ -33,10 +35,6 @@ public class Main {
 
             String all = cart.getAllCosts();
             System.out.println(all);
-
-
-
-
 
 
             cart.removeByName("Gra");

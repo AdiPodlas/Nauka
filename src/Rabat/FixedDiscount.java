@@ -1,8 +1,12 @@
 package Rabat;
 
-class FixedDiscount implements Discount {
+public class FixedDiscount implements Discount {
+    public FixedDiscount(double fixedDiscountAmount) {
+        this.fixedDiscountAmount = fixedDiscountAmount;
+    }
+
+    double fixedDiscountAmount;
     public double calculateDiscountedPrice(double totalPrice) {
-        double fixedDiscountAmount = 10;
         return totalPrice - fixedDiscountAmount;
     }
 }

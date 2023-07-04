@@ -1,5 +1,5 @@
 package Rabat;
 
-interface Discount {
+public interface Discount {
     double calculateDiscountedPrice(double totalPrice);
 }

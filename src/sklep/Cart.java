@@ -1,5 +1,8 @@
 package sklep;
 
+import Rabat.Discount;
+import Rabat.FixedDiscount;
+
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +12,7 @@ public class Cart {
 
     private double transportCosts = 0;
 
-    private double discount = 0.00;
+    private Discount discount = new FixedDiscount(0);
     private List<Product> products;
 
     public Cart() {
@@ -29,23 +32,14 @@ public class Cart {
     }
 
     public double getDiscountedValueTotal(){
-        double afterDiscount = 0;
-
-            afterDiscount = getTotal() - (getTotal() * discount);
-
-        return afterDiscount;
+            return discount.calculateDiscountedPrice(getTotal());
     }
 
     public double getDiscountValue(){
-        double discountValue = 0;
-
-            discountValue = getTotal() - getDiscountedValueTotal();
-
-        return discountValue;
+        return getTotal() - getDiscountedValueTotal();
     }
 
-
-    public void setDiscount(double discount) {
+    public void setDiscount(Discount discount) {
         this.discount = discount;
     }
 
@@ -62,12 +56,7 @@ public class Cart {
                 .append(formatPrice(getDiscountedValueTotal()));
         return receiptBuilder.toString();
     }
-    public String getDiscountSize(){
-        StringBuilder discountBuilder = new  StringBuilder();
-            discountBuilder.append("Wysokość Rabatu: ")
-                    .append(formatPrice(getDiscountValue()));
-        return discountBuilder.toString();
-    }
+
     public void appendDiscountSize(StringBuilder builder){
 
         builder.append("Wysokość Rabatu: ")
