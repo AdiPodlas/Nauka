@@ -19,11 +19,11 @@ public class Main {
     }
 
     static class Triangle implements Shape {
-        private double base;
-        private double height;
-        private double sideA;
-        private double sideB;
-        private double sideC;
+        double base;
+        double height;
+        double sideA;
+        double sideB;
+        double sideC;
 
         public Triangle(double base, double height, double sideA, double sideB, double sideC) {
             this.base = base;
@@ -43,8 +43,8 @@ public class Main {
     }
 
     static class Rectangle implements Shape {
-        private double length;
-        private double width;
+        double length;
+        double width;
 
         public Rectangle(double length, double width) {
             this.length = length;
@@ -61,7 +61,7 @@ public class Main {
     }
 
     static class Circle implements Shape {
-        private double radius;
+        double radius;
 
         public Circle(double radius) {
             this.radius = radius;
