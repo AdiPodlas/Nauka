@@ -25,7 +25,8 @@ public class Discount2 {
 
     static class FixedDiscount implements Discount {
         public double calculateDiscountedPrice(double totalPrice) {
-            double discountedPrice = totalPrice - 10;
+            double fixedDiscountAmount = 10;
+            double discountedPrice = totalPrice - fixedDiscountAmount;
             return discountedPrice;
         }
     }
