@@ -8,7 +8,7 @@ public class Discount2 {
     static class FixedDiscount implements Discount {
         public double calculateDiscountedPrice(double totalPrice) {
             double discountedPrice = totalPrice - 10;
-            return Math.max(discountedPrice, 0);
+            return discountedPrice;
         }
     }
 
@@ -16,7 +16,7 @@ public class Discount2 {
         public double calculateDiscountedPrice(double totalPrice) {
             double discountAmount = 0.05 * totalPrice;
             double discountedPrice = totalPrice - discountAmount;
-            return Math.max(discountedPrice, 0);
+            return discountedPrice;
         }
     }
 
@@ -25,7 +25,7 @@ public class Discount2 {
             if (totalPrice > 100) {
                 double discountAmount = 0.1 * totalPrice;
                 double discountedPrice = totalPrice - discountAmount;
-                return Math.max(discountedPrice, 0);
+                return discountedPrice;
             } else {
                 return totalPrice;
             }
