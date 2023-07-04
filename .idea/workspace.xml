@@ -52,8 +52,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Ksztalty.Main">
-    <configuration name="Discount2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Rabat.Discount2" />
+    <configuration name="DiscountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rabat.DiscountDemo" />
       <module name="Z Pliku" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +120,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Ksztalty.Main" />
-        <item itemvalue="Application.Discount2" />
+        <item itemvalue="Application.DiscountDemo" />
         <item itemvalue="Application.Indeksowanie" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WordIndexer" />
