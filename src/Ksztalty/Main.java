@@ -1,20 +1,36 @@
 package Ksztalty;
 
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
+
+
         Shape triangle = new Triangle(7, 8, 4, 5, 8);
-        Shape rectangle = new Rectangle(6, 8);
+        Shape rectangle = new Rectangle(1, 1);
         Shape circle = new Circle(3);
 
-        double totalArea = triangle.calculateArea() + rectangle.calculateArea() + circle.calculateArea();
-        double totalPerimeter = triangle.calculatePerimeter() + rectangle.calculatePerimeter() + circle.calculatePerimeter();
+        List<Shape> ksztalty = List.of(triangle, rectangle, circle);
+
+
+        double totalArea = 0;
+        for (Shape ksztalt : ksztalty) {
+            totalArea += ksztalt.calculateArea();
+        }
+
+        double totalPerimeter = 0;
+        for (Shape ksztalt : ksztalty) {
+            totalPerimeter += ksztalt.calculatePerimeter();
+        }
 
         System.out.println("Total area: " + totalArea);
         System.out.println("Total perimeter: " + totalPerimeter);
     }
+
     interface Shape {
         double calculateArea();
+
         double calculatePerimeter();
     }
 
