@@ -3,7 +3,7 @@ package Ksztalty;
 public class Main {
 
     public static void main(String[] args) {
-        Shape triangle = new Triangle(5, 4, 3, 4, 5);
+        Shape triangle = new Triangle(7, 8, 4, 5, 8);
         Shape rectangle = new Rectangle(6, 8);
         Shape circle = new Circle(3);
 
