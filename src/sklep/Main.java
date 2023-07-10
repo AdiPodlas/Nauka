@@ -1,13 +1,14 @@
 package sklep;
 
 import Rabat.ConditionalDiscount;
+import Rabat.FixedDiscount;
 
 public class Main {
         public static void main(String[] args) {
 
             Cart cart = new Cart();
 
-            cart.setDiscount(new ConditionalDiscount(0.2, 500));
+            cart.setDiscount(new FixedDiscount(80));
             cart.setTransportCosts(45);
 
             Product product1 = new Product("Margaryna", 9.901);
@@ -22,6 +23,7 @@ public class Main {
             cart.addProduct(product3);
             cart.addProduct(product4);
             cart.addProduct(product5);
+            cart.addProduct(product6);
 
 
 
