@@ -8,8 +8,8 @@ package PaperRockScissors;
     }
 
     enum BattleResult {
-        PLAYER_A,
-        PLAYER_B,
+        PLAYER1,
+        PLAYER2,
         DRAW
     }
 

@@ -1,18 +1,18 @@
 package PaperRockScissors;
 
 class Battle {
-    public BattleResult fight(Player playerA, Player playerB) {
-        Move moveA = playerA.getMove();
-        Move moveB = playerB.getMove();
+    public BattleResult fight(Player player1, Player player2) {
+        Move moveA = player1.getMove();
+        Move moveB = player2.getMove();
 
         if (moveA == moveB) {
             return BattleResult.DRAW;
-        } else if ((moveA == Move.ROCK && moveB == Move.SCISSORS) ||
-                (moveA == Move.PAPER && moveB == Move.ROCK) ||
+        } else if ((moveA == Move.ROCK && moveB == Move.SCISSORS) |
+                (moveA == Move.PAPER && moveB == Move.ROCK) |
                 (moveA == Move.SCISSORS && moveB == Move.PAPER)) {
-            return BattleResult.PLAYER_A;
+            return BattleResult.PLAYER1;
         } else {
-            return BattleResult.PLAYER_B;
+            return BattleResult.PLAYER2;
         }
     }
 
@@ -22,17 +22,17 @@ class Battle {
 
         for (int i = 0; i < numBattles; i++) {
             BattleResult result = fight(playerA, playerB);
-            if (result == BattleResult.PLAYER_A) {
+            if (result == BattleResult.PLAYER1) {
                 scoreA++;
-            } else if (result == BattleResult.PLAYER_B) {
+            } else if (result == BattleResult.PLAYER2) {
                 scoreB++;
             }
         }
 
         if (scoreA > scoreB) {
-            return BattleResult.PLAYER_A;
+            return BattleResult.PLAYER1;
         } else if (scoreB > scoreA) {
-            return BattleResult.PLAYER_B;
+            return BattleResult.PLAYER2;
         } else {
             return BattleResult.DRAW;
         }

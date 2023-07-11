@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Player player1 = new StaticPlayer(Move.ROCK);
-        Player player2 = new HumanPlayer();
+        Player player2 = new RandomPlayer();
 
         Battle battle = new Battle();
         BattleResult result = battle.fight(player1, player2);

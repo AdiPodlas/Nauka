@@ -1,6 +1,5 @@
 package PaperRockScissors;
-
-class RoundRobinPlayer implements Player {
+ class RoundRobinPlayer implements Player {
     private int moveIndex;
 
     public Move getMove() {
