@@ -10,9 +10,9 @@ class Battle {
         } else if ((moveA == Move.ROCK && moveB == Move.SCISSORS) |
                 (moveA == Move.PAPER && moveB == Move.ROCK) |
                 (moveA == Move.SCISSORS && moveB == Move.PAPER)) {
-            return BattleResult.PLAYER1;
+            return BattleResult.PLAYER_A;
         } else {
-            return BattleResult.PLAYER2;
+            return BattleResult.PLAYER_B;
         }
     }
 
@@ -22,17 +22,17 @@ class Battle {
 
         for (int i = 0; i < numBattles; i++) {
             BattleResult result = fight(playerA, playerB);
-            if (result == BattleResult.PLAYER1) {
+            if (result == BattleResult.PLAYER_A) {
                 scoreA++;
-            } else if (result == BattleResult.PLAYER2) {
+            } else if (result == BattleResult.PLAYER_B) {
                 scoreB++;
             }
         }
 
         if (scoreA > scoreB) {
-            return BattleResult.PLAYER1;
+            return BattleResult.PLAYER_A;
         } else if (scoreB > scoreA) {
-            return BattleResult.PLAYER2;
+            return BattleResult.PLAYER_B;
         } else {
             return BattleResult.DRAW;
         }
