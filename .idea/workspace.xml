@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d26e704-64b9-4369-a1d9-830503dd1672" name="Changes" comment="Zadania 11.07.2023">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zgadywanieLiczb/ZgadywanieLiczb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgadywanieLiczb/ZgadywanieLiczb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -306,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689687650027</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Zadania 11.07.2023">
+      <created>1689689405324</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1689689405324</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

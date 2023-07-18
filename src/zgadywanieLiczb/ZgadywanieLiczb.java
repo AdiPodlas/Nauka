@@ -9,7 +9,7 @@ public class ZgadywanieLiczb {
         Random random = new Random();
         int drawnNumber = random.nextInt(100);
         int numberOfAttempts = 0;
-        boolean correct = false;
+        boolean correct = true;
 
 
         Scanner scanner = new Scanner(System.in);
@@ -23,7 +23,8 @@ public class ZgadywanieLiczb {
         int choice = scanner.nextInt();
         scanner.nextLine();
 
-        while (!correct) {
+
+        while (correct) {
             System.out.print("Podaj liczbę: ");
             int shot = scanner.nextInt();
             numberOfAttempts++;
@@ -34,6 +35,8 @@ public class ZgadywanieLiczb {
                     break;
                 } else if (shot < drawnNumber) {
                     System.out.println("Za mało!");
+                }else if (shot >= 101){
+                    System.out.println("Za wysoka liczba! ");
                 } else {
                     System.out.println("Za dużo!");
                 }
@@ -43,6 +46,8 @@ public class ZgadywanieLiczb {
                     System.out.println("Gorąco!");
                 } else if (difference <= 15) {
                     System.out.println("Ciepło!");
+                } else if (shot >= 101){
+                    System.out.println("Za wysoka liczba! ");
                 } else {
                     System.out.println("Zimno!");
                 }
