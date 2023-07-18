@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d26e704-64b9-4369-a1d9-830503dd1672" name="Changes" comment="Zadania 11.07.2023" />
+    <list default="true" id="3d26e704-64b9-4369-a1d9-830503dd1672" name="Changes" comment="Zadania 11.07.2023">
+      <change beforePath="$PROJECT_DIR$/src/zgadywanieLiczb/ZgadywanieLiczb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgadywanieLiczb/ZgadywanieLiczb.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -289,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689670679117</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Zadania 11.07.2023">
+      <created>1689686961882</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1689686961882</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
