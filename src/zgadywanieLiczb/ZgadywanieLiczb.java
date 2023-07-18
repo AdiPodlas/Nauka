@@ -9,7 +9,7 @@ public class ZgadywanieLiczb {
         Random random = new Random();
         int drawnNumber = random.nextInt(100);
         int numberOfAttempts = 0;
-        boolean correct = true;
+        boolean correct = false;
 
 
         Scanner scanner = new Scanner(System.in);
@@ -24,7 +24,7 @@ public class ZgadywanieLiczb {
         scanner.nextLine();
 
 
-        while (correct) {
+        while (!correct) {
             System.out.print("Podaj liczbę: ");
             int shot = scanner.nextInt();
             numberOfAttempts++;
