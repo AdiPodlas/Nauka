@@ -1,5 +1,7 @@
 package PaperRockScissors;
 
+import PaperRockScissors.Enums.Move;
+
 class StaticPlayer implements Player {
     private final Move move;
 
@@ -7,7 +9,14 @@ class StaticPlayer implements Player {
         this.move = move;
     }
 
+
     public Move getMove() {
         return move;
     }
+
+    @Override
+    public void test() {
+        System.out.println("Static Test");
+    }
 }
+

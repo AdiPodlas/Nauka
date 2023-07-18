@@ -1,5 +1,8 @@
 package PaperRockScissors;
- class RoundRobinPlayer implements Player {
+
+import PaperRockScissors.Enums.Move;
+
+class RoundRobinPlayer implements Player {
     private int moveIndex;
 
     public Move getMove() {

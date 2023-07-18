@@ -1,13 +1,11 @@
 package PaperRockScissors;
 
+import PaperRockScissors.Enums.Move;
+
 import java.util.Scanner;
 
 class HumanPlayer implements Player {
-    private Scanner scanner;
-
-    public HumanPlayer() {
-        scanner = new Scanner(System.in);
-    }
+    private final Scanner scanner = new Scanner(System.in);
 
     public Move getMove() {
         System.out.print("Twój ruch (ROCK/PAPER/SCISSORS): ");
@@ -21,7 +19,7 @@ class HumanPlayer implements Player {
         return Move.valueOf(input);
     }
 
-    private boolean isValidMove(String move) {
+     private boolean isValidMove(String move) {
         for (Move validMove : Move.values()) {
             if (validMove.name().equals(move)) {
                 return true;

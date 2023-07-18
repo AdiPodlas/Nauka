@@ -1,13 +1,11 @@
 package PaperRockScissors;
 
+import PaperRockScissors.Enums.Move;
+
 import java.util.Random;
 
 class RandomPlayer implements Player {
-    private final Random random;
-
-    public RandomPlayer() {
-        random = new Random();
-    }
+  private final Random random = new Random();
 
     public Move getMove() {
         Move[] moves = Move.values();

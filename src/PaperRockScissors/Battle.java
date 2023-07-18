@@ -1,5 +1,8 @@
 package PaperRockScissors;
 
+import PaperRockScissors.Enums.BattleResult;
+import PaperRockScissors.Enums.Move;
+
 class Battle {
     public BattleResult fight(Player player1, Player player2) {
         Move moveA = player1.getMove();
@@ -7,8 +10,8 @@ class Battle {
 
         if (moveA == moveB) {
             return BattleResult.DRAW;
-        } else if ((moveA == Move.ROCK && moveB == Move.SCISSORS) |
-                (moveA == Move.PAPER && moveB == Move.ROCK) |
+        } else if ((moveA == Move.ROCK && moveB == Move.SCISSORS) ||
+                (moveA == Move.PAPER && moveB == Move.ROCK) ||
                 (moveA == Move.SCISSORS && moveB == Move.PAPER)) {
             return BattleResult.PLAYER_A;
         } else {

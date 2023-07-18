@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d26e704-64b9-4369-a1d9-830503dd1672" name="Changes" comment="Zadania 10.07.2023">
+    <list default="true" id="3d26e704-64b9-4369-a1d9-830503dd1672" name="Changes" comment="Zadania 11.07.2023">
+      <change afterPath="$PROJECT_DIR$/src/PaperRockScissors/Enums/BattleResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgadywanieLiczb/ZgadywanieLiczb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaperRockScissors/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperRockScissors/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PaperRockScissors/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperRockScissors/Enums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaperRockScissors/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperRockScissors/Enums/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaperRockScissors/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperRockScissors/HumanPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaperRockScissors/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperRockScissors/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaperRockScissors/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperRockScissors/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaperRockScissors/RandomPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperRockScissors/RandomPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaperRockScissors/RoundRobinPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperRockScissors/RoundRobinPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaperRockScissors/StaticPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperRockScissors/StaticPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,31 +61,21 @@
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="Rabat" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="PaperRockScissors" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="classes" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ZgadywanieLiczb">
     <configuration name="Ksztalty.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ksztalty.Main" />
       <module name="Z Pliku" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Ksztalty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PaperRockScissors.Main" />
-      <module name="Z Pliku" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PaperRockScissors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZgadywanieLiczb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zgadywanieLiczb.ZgadywanieLiczb" />
+      <module name="Z Pliku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zgadywanieLiczb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sklep.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sklep.Main" />
       <module name="Z Pliku" />
@@ -129,7 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ZgadywanieLiczb" />
         <item itemvalue="Application.PolishEnglishDictionary" />
         <item itemvalue="Application.PltoEN1" />
         <item itemvalue="Application.sklep.Main" />
@@ -265,7 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688979622003</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Zadania 11.07.2023">
+      <created>1689085903390</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689085903390</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Zadania 11.07.2023">
+      <created>1689086116895</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689086116895</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,7 +324,8 @@
     <MESSAGE value="Refaktoryzacja4" />
     <MESSAGE value="Zadania 04.07.2023" />
     <MESSAGE value="Zadania 10.07.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadania 10.07.2023" />
+    <MESSAGE value="Zadania 11.07.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadania 11.07.2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
