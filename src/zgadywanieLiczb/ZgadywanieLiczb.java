@@ -9,8 +9,6 @@ public class ZgadywanieLiczb {
         Random random = new Random();
         int drawnNumber = random.nextInt(100);
         int numberOfAttempts = 0;
-        boolean correct = false;
-
 
         Scanner scanner = new Scanner(System.in);
 
@@ -23,44 +21,25 @@ public class ZgadywanieLiczb {
         int choice = scanner.nextInt();
         scanner.nextLine();
 
+        GameChecker checker;
+        if (choice == 1){
+            checker = new HiLo();
+        } else if (choice == 2) {
+            checker = new HotCold();
+        }else{
+            System.out.println("Błędny wybór");
+        return;}
 
-        while (!correct) {
+        while (true) {
             System.out.print("Podaj liczbę: ");
             int shot = scanner.nextInt();
             numberOfAttempts++;
 
-            if (choice == 1) {
-                if (shot == drawnNumber) {
-                    System.out.println("Gratulacje! Odgadłeś liczbę po " + numberOfAttempts + " próbach.");
-                    break;
-                } else if (shot < drawnNumber) {
-                    System.out.println("Za mało!");
-                }else if (shot >= 101){
-                    System.out.println("Za wysoka liczba! ");
-                } else {
-                    System.out.println("Za dużo!");
-                }
-            } else if (choice == 2) {
-                int difference = Math.abs(shot - drawnNumber);
-                if (shot == drawnNumber) {
-                    System.out.println("Gratulacje! Odgadłeś liczbę po " + numberOfAttempts + " próbach.");
-                    break;
-                }
-                if (difference < 5) {
-                    System.out.println("Gorąco!");
-                } else if (difference <= 15) {
-                    System.out.println("Ciepło!");
-                } else if (shot >= 101){
-                    System.out.println("Za wysoka liczba! ");
-                } else {
-                    System.out.println("Zimno!");
-                }
-            } else {
-                System.out.println("Niepoprawny wybór.");
+            if (checker.check(drawnNumber, numberOfAttempts, shot)) {
                 break;
             }
         }
-
         scanner.close();
     }
+
 }

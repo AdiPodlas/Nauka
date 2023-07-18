@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d26e704-64b9-4369-a1d9-830503dd1672" name="Changes" comment="Zadania 11.07.2023">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgadywanieLiczb/GameChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgadywanieLiczb/HiLo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zgadywanieLiczb/HotCold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zgadywanieLiczb/ZgadywanieLiczb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zgadywanieLiczb/ZgadywanieLiczb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,6 +52,13 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="PaperRockScissors" />
     </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="zgadywanieLiczb.HotCold" />
+      <recent name="zgadywanieLiczb.HiLo" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="zgadywanieLiczb" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="Rabat" />
     </key>
@@ -59,7 +70,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZgadywanieLiczb">
+  <component name="RunManager" selected="Application.zgadywanieLiczb.ZgadywanieLiczb">
     <configuration name="Ksztalty.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ksztalty.Main" />
       <module name="Z Pliku" />
@@ -99,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZgadywanieLiczb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zgadywanieLiczb.ZgadywanieLiczb" />
-      <module name="Z Pliku" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zgadywanieLiczb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="sklep.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sklep.Main" />
       <module name="Z Pliku" />
@@ -125,9 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="zgadywanieLiczb.ZgadywanieLiczb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zgadywanieLiczb.ZgadywanieLiczb" />
+      <module name="Z Pliku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zgadywanieLiczb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZgadywanieLiczb" />
+        <item itemvalue="Application.zgadywanieLiczb.ZgadywanieLiczb" />
         <item itemvalue="Application.PolishEnglishDictionary" />
         <item itemvalue="Application.PltoEN1" />
         <item itemvalue="Application.sklep.Main" />
@@ -326,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689690043228</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Zadania 11.07.2023">
+      <created>1689693088102</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1689693088102</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
