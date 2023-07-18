@@ -7,7 +7,7 @@ public class ZgadywanieLiczb {
     public static void main(String[] args) {
         Random random = new Random();
         int drawnNumber = random.nextInt(100);
-        int numberOfAttemps = 0;
+        int numberOfAttempts = 0;
         boolean correct = false;
 
         Scanner scanner = new Scanner(System.in);
@@ -24,12 +24,12 @@ public class ZgadywanieLiczb {
         while (!correct) {
             System.out.print("Podaj liczbę: ");
             int shot = scanner.nextInt();
-            numberOfAttemps++;
+            numberOfAttempts++;
 
             if (choice == 1) {
                 if (shot == drawnNumber) {
                     correct = true;
-                    System.out.println("Gratulacje! Odgadłeś liczbę po " + numberOfAttemps + " próbach.");
+                    System.out.println("Gratulacje! Odgadłeś liczbę po " + numberOfAttempts + " próbach.");
                 } else if (shot < drawnNumber) {
                     System.out.println("Za mało!");
                 } else {
@@ -47,7 +47,7 @@ public class ZgadywanieLiczb {
 
                 if (shot == drawnNumber) {
                     correct = true;
-                    System.out.println("Gratulacje! Odgadłeś liczbę po " + numberOfAttemps + " próbach.");
+                    System.out.println("Gratulacje! Odgadłeś liczbę po " + numberOfAttempts + " próbach.");
                 }
             } else {
                 System.out.println("Niepoprawny wybór.");
