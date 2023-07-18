@@ -5,10 +5,11 @@ import java.util.Scanner;
 
 public class ZgadywanieLiczb {
     public static void main(String[] args) {
+
         Random random = new Random();
         int drawnNumber = random.nextInt(100);
         int numberOfAttempts = 0;
-        boolean correct = true;
+        boolean correct = false;
 
 
         Scanner scanner = new Scanner(System.in);
@@ -22,14 +23,13 @@ public class ZgadywanieLiczb {
         int choice = scanner.nextInt();
         scanner.nextLine();
 
-        while (correct) {
+        while (!correct) {
             System.out.print("Podaj liczbę: ");
             int shot = scanner.nextInt();
             numberOfAttempts++;
 
             if (choice == 1) {
                 if (shot == drawnNumber) {
-                    correct = true;
                     System.out.println("Gratulacje! Odgadłeś liczbę po " + numberOfAttempts + " próbach.");
                     break;
                 } else if (shot < drawnNumber) {
@@ -48,7 +48,6 @@ public class ZgadywanieLiczb {
                 }
 
                 if (shot == drawnNumber) {
-                    correct = true;
                     System.out.println("Gratulacje! Odgadłeś liczbę po " + numberOfAttempts + " próbach.");
                     break;
                 }
