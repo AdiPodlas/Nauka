@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ZgadywanieLiczb {
     public static void main(String[] args) {
         Random random = new Random();
-        int drawnNumber = random.nextInt(101);
+        int drawnNumber = random.nextInt(100);
         int numberOfAttemps = 0;
         boolean correct = false;
 
