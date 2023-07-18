@@ -42,6 +42,10 @@ public class ZgadywanieLiczb {
                 }
             } else if (choice == 2) {
                 int difference = Math.abs(shot - drawnNumber);
+                if (shot == drawnNumber) {
+                    System.out.println("Gratulacje! Odgadłeś liczbę po " + numberOfAttempts + " próbach.");
+                    break;
+                }
                 if (difference < 5) {
                     System.out.println("Gorąco!");
                 } else if (difference <= 15) {
@@ -50,11 +54,6 @@ public class ZgadywanieLiczb {
                     System.out.println("Za wysoka liczba! ");
                 } else {
                     System.out.println("Zimno!");
-                }
-
-                if (shot == drawnNumber) {
-                    System.out.println("Gratulacje! Odgadłeś liczbę po " + numberOfAttempts + " próbach.");
-                    break;
                 }
             } else {
                 System.out.println("Niepoprawny wybór.");
